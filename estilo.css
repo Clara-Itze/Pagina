@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color: #ceff74;
+    height: 60px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.encabezado-redes-sociales i1{
+    color: rgb(255, 124, 233);
+}
+
+.encabezado-redes-sociales i2{
+    background-image: linear-gradient(rgb(255, 149, 255)rgb(226, 145, 236)), rgb(230, 171, 10));
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 25px;
+    width: 25px;
+}
+
+
+nav {
+    height: 80px;
+    background-color: rgb(230, 255, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bahnschrift SemiBold';
+    font-weight: bolder;
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: rgb(111, 218, 97);
+    font-size: 20px;
+}
+
+.tras{
+    height: 640px;
+    background-image: url("mitsuri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.main-section{
+    color: white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: 'Bahnschrift SemiBold';
+}
+
+.footer{
+    height: 60px;
+    background-image: linear-gradient(#ff46ac, #b9e95f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bahnschrift SemiBold';
+}
+
+.proyectos-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center */
+    margin-top: 50px;
+}
+
+.proyectos-imagen{
+    width: 600%;
+}
+
+.proyectos-imagen img{
+    width: 50%;
+}
+
+.informacion{
+    font-family: 'Teko';
+    /*margin-left: 50px;*/
+}
+
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+
+
+
+.blog-titulo{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.blog-titulo h1{
+    font-family: 'Bahnschrift SemiBold';
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    background-color: rgb(255, 121, 215);
+    
+
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin: -50px -50px;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    background-color: rgb(204, 255, 85);
+}
+
+.blog-titulo p{
+        font-size: 21px;
+        color: rgb(255, 255, 255);
+        width: 800px;
+        
+        
+        height: 150px;
+    }
+
+.blog-cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-contenido{
+    width: 30%;
+}
+
+.blog-contenido p{
+    text-align: justify;
+}
+
+.blog-imagen{
+    width: 30%;
+}
+
+.blog-imagen img{
+    width: 100%;
+}
+
